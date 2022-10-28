@@ -1,0 +1,35 @@
+.hero{
+    width:100%;
+    height: 100vh;
+    justify-self: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    max-width: 100%;
+    max-height: fit-content;
+}
+
+.texto {
+    max-width: 100%;
+    max-height: fit-content;
+    text-align: center
+}
+
+.texto h1 {
+    margin-bottom: 2em;
+}
+
+.lead {
+    margin-top: 3em;
+}
+
+.btn {
+    background-color:gainsboro;
+    margin-top: 2em;
+}
