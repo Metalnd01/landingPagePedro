@@ -1,0 +1,46 @@
+.icono {
+    max-width: 20%;
+}
+
+.icono-columna {
+    max-width: 50%;
+    border-radius: 50px;
+    background: linear-gradient(360deg, #ffffff, #ffffff);
+    box-shadow:  20px 20px 60px #ffffff,
+                -20px -20px 60px #ffffff;
+}
+
+h3 {
+    text-align: center;
+}
+
+.cards {
+    border-style: none;
+}
+
+.cards .row {
+    width: 100%;
+    max-width: 1280px;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+  
+.cards .row .col:not(:last-child) {
+    padding-right: 20px;
+}
+.cards .card {
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ffffff, #f2f1f1);
+    box-shadow:  20px 20px 60px grey,
+                -20px -20px 60px #ffffff;
+    padding: 4px 30px 20px;
+    min-height: 380px;
+}
+
+.cards.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+}
+    
