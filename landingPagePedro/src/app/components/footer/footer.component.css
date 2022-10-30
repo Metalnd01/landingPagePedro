@@ -25,3 +25,7 @@ button {
 i {
     padding-right: 1.5em;
 }
+
+span {
+    overflow-wrap: break-word;
+}
