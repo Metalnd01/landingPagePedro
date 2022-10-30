@@ -1,5 +1,3 @@
-
-
 footer {
     background-color: grey;
     max-width: 100%;
@@ -8,4 +6,22 @@ footer {
 .redes {
     margin: 0.5em;
     justify-content: center;
+}
+
+a {
+    color:black;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-primary {
+    background-color: rgb(222, 222, 222);
+    color: black;
+}
+
+i {
+    padding-right: 1.5em;
 }
