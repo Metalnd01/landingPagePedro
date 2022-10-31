@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.row {
+    padding-bottom: 0em;
+}
+
 .mecanico {
     display: none;
 }
