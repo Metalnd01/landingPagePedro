@@ -2,7 +2,7 @@ img {
     max-width: 100%;
 }
 
-.profile-card-2 {
+.profile-card {
     max-width: 300px;
     background-color: #FFF;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
@@ -10,15 +10,15 @@ img {
     overflow: hidden;
     position: relative;
     margin: 10px auto;
-    cursor: pointer;
+    cursor: default;
     border-radius: 10px;
 }
 
-.profile-card-2 img {
+.profile-card img {
     transition: all linear 0.25s;
 }
 
-.profile-card-2 .profile-name {
+.profile-card .profile-name {
     position: absolute;
     left: 30px;
     bottom: 70px;
@@ -29,7 +29,7 @@ img {
     transition: all linear 0.25s;
 }
 
-.profile-card-2 .profile-icons {
+.profile-card .profile-icons {
     position: absolute;
     bottom: 30px;
     right: 30px;
@@ -37,7 +37,7 @@ img {
     transition: all linear 0.25s;
 }
 
-.profile-card-2 .profile-username {
+.profile-card .profile-username {
     position: absolute;
     bottom: 50px;
     left: 30px;
@@ -46,23 +46,23 @@ img {
     transition: all linear 0.25s;
 }
 
-.profile-card-2 .profile-icons .fa {
+.profile-card .profile-icons .fa {
     margin: 5px;
 }
 
-.profile-card-2:hover img {
+.profile-card:hover img {
     filter: grayscale(100%);
 }
 
-.profile-card-2:hover .profile-name {
+.profile-card:hover .profile-name {
     bottom: 80px;
 }
 
-.profile-card-2:hover .profile-username {
+.profile-card:hover .profile-username {
     bottom: 60px;
 }
 
-.profile-card-2:hover .profile-icons {
+.profile-card:hover .profile-icons {
     right: 40px;
 }
 
