@@ -22,6 +22,7 @@ h3 {
 
 .cards {
     border-style: none;
+    cursor: default;
 }
 
 .cards .row {
