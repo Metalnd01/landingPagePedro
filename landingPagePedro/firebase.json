@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/landing-page-pedro",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
